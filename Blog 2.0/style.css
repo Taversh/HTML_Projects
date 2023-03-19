@@ -1,0 +1,10 @@
+#Logo{
+    width: 200px;
+}
+#main-header{
+    display: flex;
+}
+#firstblog{
+    text-align: right;
+    
+}

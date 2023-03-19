@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body background="vlcsnap-2023-01-14-11h17m13s987.png">
+    
+    <center>
+        <img src="kisspng-spider-clip-art-hanging-spider-png-transparent-image-5a78cf37cc18a9.334603551517866807836 (1).png" 
+        alt="vlcsnap-2023-01-14-11h17m13s987.png"
+        width="200px" height="auto">
+        <h1 style="color: blueviolet;">
+            Welcome Young Villan
+        </h1>
+    </center>
+<form action="process.php" method="post">
+
+    <div>
+        <center>
+            <label style="color: blueviolet;" for="firstname"> First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label style="color: blueviolet;" for="lastname"> Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label style="color: blueviolet;" for="password"> Password:</label>
+            <input type="password" name="password" id="password" placeholder="***********" required>
+            <br>
+            <input type="radio" name="rememberme" id="rememberme">
+            <label style="color: blueviolet;" for="rememberme">Remember Me</label>
+        </center>
+    </div>
+    <br>
+    <form action="process.php" method="post">
+        <div>
+            <center>
+                <button type="submit">Submit</button>
+            </center>
+        </div>
+    </form>
+    <br>
+    <div>
+        <div>
+            <label style="color: rgb(255, 255, 255);" for="male">Male</label>
+            <input type="checkbox" name="gender" id="male" >
+        </div>
+        <br>
+        <div>
+            <label style="color: rgb(255, 255, 255);" for="female">Female</label>
+            <input type="checkbox" name="gender" id="female" >
+        </div>
+        <br>
+        <div>
+            <label style="color: rgb(255, 255, 255);" for="others">Others</label>
+            <input type="checkbox" name="gender" id="others" >
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

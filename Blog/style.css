@@ -1,0 +1,71 @@
+img{
+    width: 150px;
+    height: auto;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+#website{
+    text-align: center;
+    margin: 0;
+    flex: 1;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+#main-header{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: black;
+}
+
+.blogposts{
+    color: purple;
+}
+
+.posts{
+    
+    color: white;
+}
+
+#p1{
+    
+    color: white;
+}
+
+#p2{
+    
+    color: white;
+}
+
+#p3{
+    
+    color: white;
+}
+
+#p4{
+    color: white;
+
+}
+
+#main-footer{
+    padding: 8px;
+    font-size: larger;
+    color: purple;
+
+}
+
+#copyright{
+    text-align: right;
+}
+
+a{
+    color: red;
+}

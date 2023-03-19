@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: default;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar{
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(145, 104, 28, 0.562);
+    box-shadow: 8px 4px 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    
+}
+.nav-bar li{
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-bar a{
+    opacity: 0.4;
+    transition: 300ms;
+    border-left: 3px rgba(0, 0, 0, 0.534) solid;
+    border-right: 3px rgb(0, 0, 0, 0.534) solid;
+    border-radius: 5px;
+}
+.nav-bar a, h1{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar a:hover{
+    font-size: larger;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.container{
+    color: rgba(173, 101, 7, 0.671);
+}
+.header{
+    margin: 0%;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header h3{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#home{
+    background-image: url(Marvel\'s\ Spider-Man\ \ Miles\ Morales\ Screenshot\ 2023.03.09\ -\ 10.52.59.50.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#services{
+    background-image: url(Marvel\'s\ Spider-Man\ \ Miles\ Morales\ Screenshot\ 2023.03.09\ -\ 10.40.45.04.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about{
+    background-image: url(Marvel\'s\ Spider-Man\ \ Miles\ Morales\ Screenshot\ 2023.03.09\ -\ 10.48.22.12.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact{
+    background-image: url(Marvel\'s\ Spider-Man\ \ Miles\ Morales\ Screenshot\ 2023.03.09\ -\ 10.49.47.30.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

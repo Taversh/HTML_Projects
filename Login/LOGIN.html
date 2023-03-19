@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAVERSH LOGIN PAGE</title>
+</head>
+<body>
+    <center>
+        <h1 style="color: blueviolet;">
+            TAVERSH INC.
+        </h1>
+    </center>
+
+<form action="process.php" method="post">
+    <center>
+        <br><hr><br>
+        <img src="one.jpg" width="200px" height="auto">
+        <br><hr><br>
+    </center>
+    <div>
+        <center>
+            <label hidden style="color: blueviolet;" for="firstname"> First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label hidden style="color: blueviolet;" for="lastname"> Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label hidden style="color: blueviolet;" for="email"> Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+        </center>
+    </div>
+    <br>
+    <div>
+        <center>
+            <label hidden style="color: blueviolet;" for="password"> Password:</label>
+            <input type="password" name="password" id="password" placeholder="***********" required>
+            <br><br>
+            <input type="radio" name="rememberme" id="rememberme">
+            <label style="color: blueviolet;" for="rememberme">Remember Me</label>
+        </center>
+    </div>
+    <br>
+    <div>
+        Don't remember password? <a href="" target="_blank" >Change password</a>
+        <center>
+            <button type="submit">Submit</button>
+        </center>
+    </div>
+
+   
+</form>
+
+</body>
+</html>

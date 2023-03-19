@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <header>
+        <center>
+            <h1>
+                HTML Cheat sheet
+            </h1>
+        </center>
+        <center>
+            <img src="IMG_0172.JPG" alt="flower photo"
+        width="100px" height="auto">
+        </center>
+        
+        <a href="myBlog.html" target="_self">go to blog</a>
+        <hr>
+    </header>
+
+    <!--headings-->
+    <h1 style="color: red;">Heading One</h1>
+    <h2 style="color: aqua;">Heading Two</h2>
+    <h3 style="color: brown;">Heading Three</h3>
+    <h4 style="color: purple;">Heading Four</h4>
+    <h5 style="color: pink;">Heading Five</h5>
+    <h6 style="color: indianred;">Heading Six</h6>
+
+    <!--paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur,<strong>adipsicing elit. Dolor</strong> adpisicing elit. Dolor, quam obcaecati natus, <em>sequi quidem nihil similique commodi at</em>, impedit aperiam placeat harum possimus totam voluptas. Blanditiis sapiente sint ea quod.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <a href="http://google.com" target="_blank">google.com</a>
+        Inventore, voluptate neque debitis suscipit numquam esse eligendi eius porro amet. Beatae eligindi deserunt tenetur quas corporis illo autem ab iste ut.
+</p>
+<!--list-->
+<ul>
+    <li>list item1</li>
+    <li>list item2</li>
+    <li>list item3</li>
+    <li>list item4</li>
+</ul>
+<ol>
+    <li>list item1</li>
+    <li>list item2</li>
+    <li>list item3</li>
+    <li>list item4</li>
+</ol>
+
+<!--table-->
+<table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>phone number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>alvyn</td>
+                <td>alvynadamsakisin@gmail.com</td>
+                <td>08035128561</td>
+            </tr>
+            <tr>
+             <td>bryan</td>
+             <td>bryanadamsakisin@gmail.com</td>
+             <td>08054336095</td>
+         </tr>
+         <tr>
+             <td>Anointed</td>
+             <td>anointed@gmail.com</td>
+             <td>08066641991</td>
+         </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!--form-->
+    <form action="process.php" method="post">
+        <div>
+            <label for="firstname">FIRSTNAME:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter Firstname" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastname">LASTNAME:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter Lastname">
+        </div>
+        <br>
+        <div>
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">PASSWORD:</label>
+            <input type="password" name="pass" id="pass" placeholder="*******" required> <br>
+            <input type="radio" name="rememberme" id="rememberme"><label for="rememberme">Remember Me</label>
+        </div>
+        <br>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message">
+
+            </textarea>
+        </div>
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <select name="" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br><br>
+        <label for="birthday">Date Of Birth</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <br><br><br>
+        <input type="submit" value="Enter">
+    </form>
+</body>
+</html>

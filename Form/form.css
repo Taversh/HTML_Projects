@@ -1,0 +1,84 @@
+*{
+    color: darkorange;
+}
+
+body{
+    background-image: url(vlcsnap-2023-02-22-17h22m40s522.png);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px
+}
+
+
+.container{
+    background-color: rgba(223, 164, 2, 0.212);
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+img{
+    width: 80px;
+}
+
+.icon-div{
+    display: inline-flex;
+}
+
+select{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: rgba(255, 140, 0, 0.726);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+option{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: rgba(255, 140, 0, 0.616);
+    padding: 10px;
+}
+
+.button{
+    width: 50%;
+}
+.button:hover{
+    background-color: rgba(223, 164, 2, 0.329);
+    color: black;
+    transition: background-color 1s;
+    box-shadow: 3px 3px 5px;
+}
+.button:active{
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+#age{
+    margin-right: 90px;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: darkorange;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    text-align: center;
+}
+input::placeholder{
+    color: rgba(255, 140, 0, 0.534);
+    text-align: center;
+}
+
+.form-group{
+    margin-top: 30px;
+}
+
+footer{
+
+}
